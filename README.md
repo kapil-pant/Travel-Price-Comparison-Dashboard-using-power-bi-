@@ -1,12 +1,12 @@
 # Travel-Price-Comparison-Dashboard-using-power-bi-
 
- Slide 1: Title Slide
+ #Slide 1: Title Slide
 Title: Travel Price Comparison Dashboard Using Power BI
 Subtitle: Data Extraction & Visualization from Multiple Travel Websites
 Presented by: kapil pant 
 
 
-Slide 2: Introduction
+#Slide 2: Introduction
 Objective of the Project:
 
 To analyze and compare hotel prices across multiple travel websites.
@@ -17,7 +17,7 @@ Web Scraping: Requests, BeautifulSoup
 Data Processing: Pandas, SQL
 Visualization: Power BI
 
- Slide 3: Data Collection Process
+ #Slide 3: Data Collection Process
 Sources of Data:
 Data scraped from MakeMyTrip, Booking.com, Expedia, Agoda, Airbnb, etc.
 Method Used:
@@ -28,7 +28,7 @@ Avoiding bans using rotating user agents & proxies.
 Data Storage:
 Cleaned and stored in SQL Database / CSV files.
 
- Slide 4: Data Cleaning & Transformation
+ #Slide 4: Data Cleaning & Transformation
 Handling Missing Data:
 Filled missing values and standardized price formats.
 Data Transformation:
@@ -37,7 +37,7 @@ Created calculated columns (e.g., price per night, rating-weighted score).
 ETL Process:
 Extract → Transform → Load into Power BI.
 
-Slide 5: Power BI Dashboard Overview
+#Slide 5: Power BI Dashboard Overview
 Dashboard Features:
 Interactive Filters (City, Check-in Date, Room Type, Price Range).
 Dynamic Pricing Trends (Compare different websites).
@@ -45,7 +45,7 @@ Top 10 Best Deals Based on Ratings & Price.
 KPI Scorecards for Price Variance & Trends.
 
 
-Slide 6: Data Visualization - Price Comparison
+#Slide 6: Data Visualization - Price Comparison
 Key Insights:
 Significant price variations across different platforms.
 Seasonal pricing fluctuations.
@@ -55,7 +55,7 @@ Bar Charts: Website-wise price comparison.
 Line Charts: Price trends over time.
 Table View: Hotel-wise price details across websites.
 
- Slide 7: Dynamic Analysis with DAX & Measures
+ #Slide 7: Dynamic Analysis with DAX & Measures
 DAX Queries Used:
 Dynamic Ranking of Websites by Price.
 Average Price Calculation Per City.
@@ -64,7 +64,7 @@ Example Measures in Power BI:
 Lowest Price = MIN(Hotels[Price])
 Price Variance = MAX(Hotels[Price]) - MIN(Hotels[Price])
 
-Slide 8: Business Impact & Use Cases
+#Slide 8: Business Impact & Use Cases
 Who Can Benefit?
 Travelers: Find the best hotel deals easily.
 Hotel Owners: Price positioning against competitors.
@@ -73,7 +73,7 @@ Potential Future Enhancements:
 Predictive pricing analysis using machine learning.
 AI-driven recommendations based on past bookings.
 
- Slide 9: Challenges & Learnings
+ #Slide 9: Challenges & Learnings
 Challenges Faced:
 Handling CAPTCHA & anti-scraping mechanisms.
 Ensuring data accuracy with real-time updates.
@@ -81,7 +81,7 @@ Key Learnings:
 Efficient data scraping using Selenium for dynamic websites.
 Advanced Power BI techniques for enhanced visualization.
 
-Slide 10: Conclusion & Next Steps
+#Slide 10: Conclusion & Next Steps
 Summary of Findings:
 Pricing across platforms varies by 15-40%.
 Some platforms offer better deals based on seasonal trends.
